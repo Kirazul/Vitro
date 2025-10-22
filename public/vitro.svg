@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#mainGradient)" opacity="0.1"/>
+
+  <!-- Main M letter with modern geometric design -->
+  <path d="M 50 130 L 50 70 L 75 95 L 100 70 L 125 95 L 150 70 L 150 130 L 135 130 L 135 95 L 100 130 L 65 95 L 65 130 Z"
+        fill="url(#mainGradient)"
+        filter="url(#glow)"
+        opacity="0.9"/>
+
+  <!-- Accent play button icon -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="url(#accentGradient)" stroke-width="3" opacity="0.7"/>
+  <path d="M 95 90 L 95 110 L 110 100 Z" fill="url(#accentGradient)" opacity="0.8"/>
+
+  <!-- Decorative dots -->
+  <circle cx="40" cy="50" r="4" fill="url(#accentGradient)" opacity="0.6"/>
+  <circle cx="160" cy="50" r="4" fill="url(#accentGradient)" opacity="0.6"/>
+  <circle cx="40" cy="150" r="4" fill="url(#accentGradient)" opacity="0.6"/>
+  <circle cx="160" cy="150" r="4" fill="url(#accentGradient)" opacity="0.6"/>
+</svg>
