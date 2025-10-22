@@ -1,7 +1,8 @@
 # Vitro
 
 <div align="center">
-  <p>A modern streaming platform for movies and TV shows</p>
+  <h1>Stream Movies & TV Shows Anywhere</h1>
+  <p>Modern, fast, and beautiful streaming experience</p>
 </div>
 
 ---
@@ -31,37 +32,20 @@ Vitro is a modern streaming platform that lets you:
 
 ## 🔄 How It Works
 
-```
-1. Search or Browse
-   ↓
-2. Select a Movie/TV Show
-   ↓
-3. Choose Episode (for TV shows)
-   ↓
-4. Stream Instantly
-   ↓
-5. Progress Saved Automatically
-```
+**TMDB API** - Fetches all movie and TV show metadata
+- Trending content, search results, and genre lists
+- Posters, backdrops, ratings, and descriptions
+- Season and episode information for TV shows
 
-### Workflow Details
+**MultiEmbed Player** - Handles video streaming
+- Embeds video player via iframe
+- Supports movies and TV episodes
+- Autoplay and subtitle support
 
-**Discovery**
-- Browse trending movies and TV shows
-- Search by title in real-time
-- Filter content by genre categories
-- View ratings, descriptions, and release dates
-
-**Streaming**
-- Click any title to start watching
-- For TV shows, select season and episode
-- Navigate between episodes with arrow buttons
-- Video player loads with autoplay
-
-**Progress Tracking**
-- Your watch history is saved locally
-- "Continue Watching" section shows recent content
-- For TV shows, remembers your last episode
-- Remove items from history with one click
+**Local Storage** - Saves your watch progress
+- Tracks viewing history
+- Remembers last watched episode for TV shows
+- Persistent across browser sessions
 
 ---
 
