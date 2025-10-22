@@ -6,7 +6,7 @@ import './index.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Vitro">
       <PageTransition>
         <Routes>
           <Route path="/" element={<Home />} />
