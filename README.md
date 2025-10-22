@@ -3,6 +3,10 @@
 <div align="center">
   <h1>Stream Movies & TV Shows Anywhere</h1>
   <p>Modern, fast, and beautiful streaming experience</p>
+  
+  <p>
+    <a href="https://kirazul.github.io/Vitro/">🚀 Live Demo</a>
+  </p>
 </div>
 
 ---
